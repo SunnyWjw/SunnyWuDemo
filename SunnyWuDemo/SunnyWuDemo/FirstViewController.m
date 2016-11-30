@@ -22,6 +22,7 @@
     // Do any additional setup after loading the view.
     self.title = @"First";
     
+    
     [SwCheckLauchImage checkLanuchImage:3 isShowAd:true ignore:false];
     //换成你自己的图片网址
     [SwCheckLauchImage downLauchImageUrl:@"http://i1.shouyou.itc.cn/2014/news/2014/10/24/1334x750bz1025_14.jpg" update:true];
