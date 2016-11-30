@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520BBF97FCD305F2DC7BB3E2 /* libPods-SunnyWuDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8183409B97D46779E108EE /* libPods-SunnyWuDemoTests.a */; };
+		70B71295098FFE1FD8D664E0 /* libPods-SunnyWuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAAA0B7CF58C58E4FAF0340 /* libPods-SunnyWuDemo.a */; };
+		8A0E40B81DC98C2F005FFD03 /* SWDBDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E40B71DC98C2F005FFD03 /* SWDBDataBase.m */; };
+		8A0E40BB1DC98CA9005FFD03 /* SWDBDataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E40BA1DC98CA9005FFD03 /* SWDBDataBaseModel.m */; };
+		8A1B774F1DBDDE5900A71B17 /* SWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B774E1DBDDE5900A71B17 /* SWTableViewController.m */; };
+		8A29F9501DE5416F007E1700 /* TestProjectFramework.Framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A29F94E1DE54161007E1700 /* TestProjectFramework.Framework */; };
+		8A500FAA1DC3037400628D2D /* SwCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A500FA81DC3037400628D2D /* SwCollectionHeaderView.m */; };
+		8A500FAB1DC3037400628D2D /* SwCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A500FA91DC3037400628D2D /* SwCollectionHeaderView.xib */; };
+		8A5D37801DC0A58E005D5A47 /* SwCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D377E1DC0A58E005D5A47 /* SwCollectionViewCell.m */; };
+		8A5D37811DC0A58E005D5A47 /* SwCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5D377F1DC0A58E005D5A47 /* SwCollectionViewCell.xib */; };
+		8A5D37841DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D37831DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.m */; };
+		8A5D37871DC0AF5C005D5A47 /* SwWaterfallFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D37861DC0AF5C005D5A47 /* SwWaterfallFlowViewController.m */; };
+		8A6D60851DE3D6820090FF3B /* RootTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D60841DE3D6820090FF3B /* RootTabbarController.m */; };
+		8AB450981DBDA2DA00EB730A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450971DBDA2DA00EB730A /* main.m */; };
+		8AB4509B1DBDA2DA00EB730A /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4509A1DBDA2DA00EB730A /* SWAppDelegate.m */; };
+		8AB450A11DBDA2DA00EB730A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4509F1DBDA2DA00EB730A /* Main.storyboard */; };
+		8AB450A31DBDA2DA00EB730A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB450A21DBDA2DA00EB730A /* Assets.xcassets */; };
+		8AB450B11DBDA2DB00EB730A /* SunnyWuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450B01DBDA2DB00EB730A /* SunnyWuDemoTests.m */; };
+		8AB450BC1DBDA2DB00EB730A /* SunnyWuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450BB1DBDA2DB00EB730A /* SunnyWuDemoUITests.m */; };
+		8AB450CB1DBDA80C00EB730A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450CA1DBDA80C00EB730A /* BaseViewController.m */; };
+		8AB450CE1DBDA81B00EB730A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450CD1DBDA81B00EB730A /* FirstViewController.m */; };
+		8AB450D11DBDA82700EB730A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450D01DBDA82700EB730A /* SecondViewController.m */; };
+		8AB450D41DBDA83100EB730A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450D31DBDA83100EB730A /* ThreeViewController.m */; };
+		8AB450D71DBDA83A00EB730A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450D61DBDA83A00EB730A /* FourViewController.m */; };
+		8AB450DB1DBDAD9900EB730A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450DA1DBDAD9900EB730A /* UIImage+ImageEffects.m */; };
+		8AB450DE1DBDADC300EB730A /* UIImage+SwBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450DD1DBDADC300EB730A /* UIImage+SwBlurredImage.m */; };
+		8AB450E21DBDBE3D00EB730A /* UIImage+SwBorderImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB450E11DBDBE3D00EB730A /* UIImage+SwBorderImage.m */; };
+		8AB8D4CB1DC19A2200B527F7 /* SwCheckLauchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8D4CA1DC19A2200B527F7 /* SwCheckLauchImage.m */; };
+		8AB8D4D11DC19AC300B527F7 /* UITextField+SwPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8D4D01DC19AC300B527F7 /* UITextField+SwPlaceholder.m */; };
+		8ABDE7FE1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABDE7FB1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.xib */; };
+		8ABDE7FF1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABDE7FC1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.m */; };
+		8ACD8B431DC9C9AB00B378DA /* numberaddress.db in Resources */ = {isa = PBXBuildFile; fileRef = 8ACD8B421DC9C9A000B378DA /* numberaddress.db */; };
+		B1418AAEE7BAD372C8F4C3D2 /* libPods-SunnyWuDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758C016787E791C217866419 /* libPods-SunnyWuDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB450AD1DBDA2DB00EB730A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB4508B1DBDA2DA00EB730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB450921DBDA2DA00EB730A;
+			remoteInfo = SunnyWuDemo;
+		};
+		8AB450B81DBDA2DB00EB730A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB4508B1DBDA2DA00EB730A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB450921DBDA2DA00EB730A;
+			remoteInfo = SunnyWuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8183409B97D46779E108EE /* libPods-SunnyWuDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunnyWuDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3722AD3BAA1DF2A4F66C52CB /* Pods-SunnyWuDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyWuDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyWuDemoUITests/Pods-SunnyWuDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6472CF1C923D8BF2BB931BCA /* Pods-SunnyWuDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyWuDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyWuDemoTests/Pods-SunnyWuDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		683D6961F9E1F0E2A2D21511 /* Pods-SunnyWuDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyWuDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyWuDemoTests/Pods-SunnyWuDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		758C016787E791C217866419 /* libPods-SunnyWuDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunnyWuDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC627A61DE531140073988E /* TestProjectFramework.Framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestProjectFramework.Framework; path = SunnyWuDemo/TestProjectFramework.Framework; sourceTree = "<group>"; };
+		8A0E40B61DC98C2F005FFD03 /* SWDBDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDBDataBase.h; sourceTree = "<group>"; };
+		8A0E40B71DC98C2F005FFD03 /* SWDBDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDBDataBase.m; sourceTree = "<group>"; };
+		8A0E40B91DC98CA9005FFD03 /* SWDBDataBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDBDataBaseModel.h; sourceTree = "<group>"; };
+		8A0E40BA1DC98CA9005FFD03 /* SWDBDataBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDBDataBaseModel.m; sourceTree = "<group>"; };
+		8A1B774D1DBDDE5900A71B17 /* SWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewController.h; sourceTree = "<group>"; };
+		8A1B774E1DBDDE5900A71B17 /* SWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewController.m; sourceTree = "<group>"; };
+		8A29F94A1DE535BB007E1700 /* TestProjectFramework.Framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestProjectFramework.Framework; sourceTree = "<group>"; };
+		8A29F94E1DE54161007E1700 /* TestProjectFramework.Framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestProjectFramework.Framework; sourceTree = "<group>"; };
+		8A500FA71DC3037400628D2D /* SwCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwCollectionHeaderView.h; sourceTree = "<group>"; };
+		8A500FA81DC3037400628D2D /* SwCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwCollectionHeaderView.m; sourceTree = "<group>"; };
+		8A500FA91DC3037400628D2D /* SwCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwCollectionHeaderView.xib; sourceTree = "<group>"; };
+		8A5D377D1DC0A58E005D5A47 /* SwCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwCollectionViewCell.h; sourceTree = "<group>"; };
+		8A5D377E1DC0A58E005D5A47 /* SwCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwCollectionViewCell.m; sourceTree = "<group>"; };
+		8A5D377F1DC0A58E005D5A47 /* SwCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwCollectionViewCell.xib; sourceTree = "<group>"; };
+		8A5D37821DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwRewriteCollectionViewLayout.h; sourceTree = "<group>"; };
+		8A5D37831DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwRewriteCollectionViewLayout.m; sourceTree = "<group>"; };
+		8A5D37851DC0AF5C005D5A47 /* SwWaterfallFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwWaterfallFlowViewController.h; sourceTree = "<group>"; };
+		8A5D37861DC0AF5C005D5A47 /* SwWaterfallFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwWaterfallFlowViewController.m; sourceTree = "<group>"; };
+		8A6D60831DE3D6820090FF3B /* RootTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabbarController.h; sourceTree = "<group>"; };
+		8A6D60841DE3D6820090FF3B /* RootTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabbarController.m; sourceTree = "<group>"; };
+		8AB450931DBDA2DA00EB730A /* SunnyWuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyWuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB450971DBDA2DA00EB730A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AB450991DBDA2DA00EB730A /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		8AB4509A1DBDA2DA00EB730A /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		8AB450A01DBDA2DA00EB730A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AB450A21DBDA2DA00EB730A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AB450A71DBDA2DA00EB730A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB450AC1DBDA2DB00EB730A /* SunnyWuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyWuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB450B01DBDA2DB00EB730A /* SunnyWuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunnyWuDemoTests.m; sourceTree = "<group>"; };
+		8AB450B21DBDA2DB00EB730A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB450B71DBDA2DB00EB730A /* SunnyWuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyWuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB450BB1DBDA2DB00EB730A /* SunnyWuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunnyWuDemoUITests.m; sourceTree = "<group>"; };
+		8AB450BD1DBDA2DB00EB730A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB450C91DBDA80C00EB730A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8AB450CA1DBDA80C00EB730A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8AB450CC1DBDA81B00EB730A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = SunnyWuDemo/FirstViewController.h; sourceTree = SOURCE_ROOT; };
+		8AB450CD1DBDA81B00EB730A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = SunnyWuDemo/FirstViewController.m; sourceTree = SOURCE_ROOT; };
+		8AB450CF1DBDA82700EB730A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = SunnyWuDemo/SecondViewController.h; sourceTree = SOURCE_ROOT; };
+		8AB450D01DBDA82700EB730A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = SunnyWuDemo/SecondViewController.m; sourceTree = SOURCE_ROOT; };
+		8AB450D21DBDA83100EB730A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreeViewController.h; path = SunnyWuDemo/ThreeViewController.h; sourceTree = SOURCE_ROOT; };
+		8AB450D31DBDA83100EB730A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreeViewController.m; path = SunnyWuDemo/ThreeViewController.m; sourceTree = SOURCE_ROOT; };
+		8AB450D51DBDA83A00EB730A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourViewController.h; path = SunnyWuDemo/FourViewController.h; sourceTree = SOURCE_ROOT; };
+		8AB450D61DBDA83A00EB730A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourViewController.m; path = SunnyWuDemo/FourViewController.m; sourceTree = SOURCE_ROOT; };
+		8AB450D91DBDAD9900EB730A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8AB450DA1DBDAD9900EB730A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8AB450DC1DBDADC300EB730A /* UIImage+SwBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SwBlurredImage.h"; sourceTree = "<group>"; };
+		8AB450DD1DBDADC300EB730A /* UIImage+SwBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SwBlurredImage.m"; sourceTree = "<group>"; };
+		8AB450DF1DBDB40800EB730A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8AB450E01DBDBE3D00EB730A /* UIImage+SwBorderImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SwBorderImage.h"; sourceTree = "<group>"; };
+		8AB450E11DBDBE3D00EB730A /* UIImage+SwBorderImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SwBorderImage.m"; sourceTree = "<group>"; };
+		8AB8D4C91DC19A2200B527F7 /* SwCheckLauchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwCheckLauchImage.h; sourceTree = "<group>"; };
+		8AB8D4CA1DC19A2200B527F7 /* SwCheckLauchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwCheckLauchImage.m; sourceTree = "<group>"; };
+		8AB8D4CC1DC19A9F00B527F7 /* SwPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwPlaceholder.h; sourceTree = "<group>"; };
+		8AB8D4CF1DC19AC300B527F7 /* UITextField+SwPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SwPlaceholder.h"; sourceTree = "<group>"; };
+		8AB8D4D01DC19AC300B527F7 /* UITextField+SwPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SwPlaceholder.m"; sourceTree = "<group>"; };
+		8ABDE7FB1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBLIntegralMallCollectionReusableView.xib; sourceTree = "<group>"; };
+		8ABDE7FC1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLIntegralMallCollectionReusableView.m; sourceTree = "<group>"; };
+		8ABDE7FD1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLIntegralMallCollectionReusableView.h; sourceTree = "<group>"; };
+		8ACD8B421DC9C9A000B378DA /* numberaddress.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = numberaddress.db; sourceTree = "<group>"; };
+		8EAAA0B7CF58C58E4FAF0340 /* libPods-SunnyWuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunnyWuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F64FC6FA94CE0AA1D7DC5B3 /* Pods-SunnyWuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyWuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyWuDemo/Pods-SunnyWuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B43D946DB36AA5E8DAE86DFF /* Pods-SunnyWuDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyWuDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyWuDemoUITests/Pods-SunnyWuDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1EAF68222F4D9DF8D6AADE5 /* Pods-SunnyWuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunnyWuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunnyWuDemo/Pods-SunnyWuDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB450901DBDA2DA00EB730A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A29F9501DE5416F007E1700 /* TestProjectFramework.Framework in Frameworks */,
+				70B71295098FFE1FD8D664E0 /* libPods-SunnyWuDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB450A91DBDA2DB00EB730A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520BBF97FCD305F2DC7BB3E2 /* libPods-SunnyWuDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB450B41DBDA2DB00EB730A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1418AAEE7BAD372C8F4C3D2 /* libPods-SunnyWuDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4C2FAB725DA430C76B6072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F64FC6FA94CE0AA1D7DC5B3 /* Pods-SunnyWuDemo.debug.xcconfig */,
+				F1EAF68222F4D9DF8D6AADE5 /* Pods-SunnyWuDemo.release.xcconfig */,
+				683D6961F9E1F0E2A2D21511 /* Pods-SunnyWuDemoTests.debug.xcconfig */,
+				6472CF1C923D8BF2BB931BCA /* Pods-SunnyWuDemoTests.release.xcconfig */,
+				3722AD3BAA1DF2A4F66C52CB /* Pods-SunnyWuDemoUITests.debug.xcconfig */,
+				B43D946DB36AA5E8DAE86DFF /* Pods-SunnyWuDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A0E40B51DC98BC3005FFD03 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A0E40B61DC98C2F005FFD03 /* SWDBDataBase.h */,
+				8A0E40B71DC98C2F005FFD03 /* SWDBDataBase.m */,
+				8A0E40B91DC98CA9005FFD03 /* SWDBDataBaseModel.h */,
+				8A0E40BA1DC98CA9005FFD03 /* SWDBDataBaseModel.m */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		8A1B77491DBDDDE700A71B17 /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450D51DBDA83A00EB730A /* FourViewController.h */,
+				8AB450D61DBDA83A00EB730A /* FourViewController.m */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		8A1B774A1DBDDDE700A71B17 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450D21DBDA83100EB730A /* ThreeViewController.h */,
+				8AB450D31DBDA83100EB730A /* ThreeViewController.m */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		8A1B774B1DBDDDE700A71B17 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D377C1DC0A54B005D5A47 /* view */,
+				8A5D377B1DC0A54B005D5A47 /* model */,
+				8AB450CF1DBDA82700EB730A /* SecondViewController.h */,
+				8AB450D01DBDA82700EB730A /* SecondViewController.m */,
+				8A5D37851DC0AF5C005D5A47 /* SwWaterfallFlowViewController.h */,
+				8A5D37861DC0AF5C005D5A47 /* SwWaterfallFlowViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		8A1B774C1DBDDDE700A71B17 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450CC1DBDA81B00EB730A /* FirstViewController.h */,
+				8AB450CD1DBDA81B00EB730A /* FirstViewController.m */,
+				8A1B774D1DBDDE5900A71B17 /* SWTableViewController.h */,
+				8A1B774E1DBDDE5900A71B17 /* SWTableViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		8A5D377B1DC0A54B005D5A47 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D37821DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.h */,
+				8A5D37831DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8A5D377C1DC0A54B005D5A47 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8ABDE7FD1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.h */,
+				8ABDE7FC1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.m */,
+				8ABDE7FB1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.xib */,
+				8A5D377D1DC0A58E005D5A47 /* SwCollectionViewCell.h */,
+				8A5D377E1DC0A58E005D5A47 /* SwCollectionViewCell.m */,
+				8A5D377F1DC0A58E005D5A47 /* SwCollectionViewCell.xib */,
+				8A500FA71DC3037400628D2D /* SwCollectionHeaderView.h */,
+				8A500FA81DC3037400628D2D /* SwCollectionHeaderView.m */,
+				8A500FA91DC3037400628D2D /* SwCollectionHeaderView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8AB4508A1DBDA2DA00EB730A = {
+			isa = PBXGroup;
+			children = (
+				8A29F94E1DE54161007E1700 /* TestProjectFramework.Framework */,
+				8AB450951DBDA2DA00EB730A /* SunnyWuDemo */,
+				8AB450AF1DBDA2DB00EB730A /* SunnyWuDemoTests */,
+				8AB450BA1DBDA2DB00EB730A /* SunnyWuDemoUITests */,
+				8AB450941DBDA2DA00EB730A /* Products */,
+				2C4C2FAB725DA430C76B6072 /* Pods */,
+				BFB209283E1A97A1E34D0927 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB450941DBDA2DA00EB730A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450931DBDA2DA00EB730A /* SunnyWuDemo.app */,
+				8AB450AC1DBDA2DB00EB730A /* SunnyWuDemoTests.xctest */,
+				8AB450B71DBDA2DB00EB730A /* SunnyWuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB450951DBDA2DA00EB730A /* SunnyWuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A0E40B51DC98BC3005FFD03 /* DBModel */,
+				8AB450D81DBDAD5500EB730A /* Category */,
+				8A1B774C1DBDDDE700A71B17 /* First */,
+				8A1B774B1DBDDDE700A71B17 /* Second */,
+				8A1B774A1DBDDDE700A71B17 /* Three */,
+				8A1B77491DBDDDE700A71B17 /* Four */,
+				8AB450991DBDA2DA00EB730A /* SWAppDelegate.h */,
+				8AB4509A1DBDA2DA00EB730A /* SWAppDelegate.m */,
+				8AB4509F1DBDA2DA00EB730A /* Main.storyboard */,
+				8AB450A21DBDA2DA00EB730A /* Assets.xcassets */,
+				8AB450A71DBDA2DA00EB730A /* Info.plist */,
+				8ACD8B421DC9C9A000B378DA /* numberaddress.db */,
+				8AB450961DBDA2DA00EB730A /* Supporting Files */,
+				8AB450C91DBDA80C00EB730A /* BaseViewController.h */,
+				8AB450CA1DBDA80C00EB730A /* BaseViewController.m */,
+				8A6D60831DE3D6820090FF3B /* RootTabbarController.h */,
+				8A6D60841DE3D6820090FF3B /* RootTabbarController.m */,
+				8AB450DF1DBDB40800EB730A /* PrefixHeader.pch */,
+				8AB8D4C91DC19A2200B527F7 /* SwCheckLauchImage.h */,
+				8AB8D4CA1DC19A2200B527F7 /* SwCheckLauchImage.m */,
+				8AB8D4CC1DC19A9F00B527F7 /* SwPlaceholder.h */,
+				8AB8D4CF1DC19AC300B527F7 /* UITextField+SwPlaceholder.h */,
+				8AB8D4D01DC19AC300B527F7 /* UITextField+SwPlaceholder.m */,
+			);
+			path = SunnyWuDemo;
+			sourceTree = "<group>";
+		};
+		8AB450961DBDA2DA00EB730A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450971DBDA2DA00EB730A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AB450AF1DBDA2DB00EB730A /* SunnyWuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450B01DBDA2DB00EB730A /* SunnyWuDemoTests.m */,
+				8AB450B21DBDA2DB00EB730A /* Info.plist */,
+			);
+			path = SunnyWuDemoTests;
+			sourceTree = "<group>";
+		};
+		8AB450BA1DBDA2DB00EB730A /* SunnyWuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450BB1DBDA2DB00EB730A /* SunnyWuDemoUITests.m */,
+				8AB450BD1DBDA2DB00EB730A /* Info.plist */,
+			);
+			path = SunnyWuDemoUITests;
+			sourceTree = "<group>";
+		};
+		8AB450D81DBDAD5500EB730A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8AB450D91DBDAD9900EB730A /* UIImage+ImageEffects.h */,
+				8AB450DA1DBDAD9900EB730A /* UIImage+ImageEffects.m */,
+				8AB450DC1DBDADC300EB730A /* UIImage+SwBlurredImage.h */,
+				8AB450DD1DBDADC300EB730A /* UIImage+SwBlurredImage.m */,
+				8AB450E01DBDBE3D00EB730A /* UIImage+SwBorderImage.h */,
+				8AB450E11DBDBE3D00EB730A /* UIImage+SwBorderImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BFB209283E1A97A1E34D0927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A29F94A1DE535BB007E1700 /* TestProjectFramework.Framework */,
+				7CC627A61DE531140073988E /* TestProjectFramework.Framework */,
+				8EAAA0B7CF58C58E4FAF0340 /* libPods-SunnyWuDemo.a */,
+				0F8183409B97D46779E108EE /* libPods-SunnyWuDemoTests.a */,
+				758C016787E791C217866419 /* libPods-SunnyWuDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB450921DBDA2DA00EB730A /* SunnyWuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB450C01DBDA2DB00EB730A /* Build configuration list for PBXNativeTarget "SunnyWuDemo" */;
+			buildPhases = (
+				A53B20DA5DF6FEEBA2F4AC01 /* [CP] Check Pods Manifest.lock */,
+				8AB4508F1DBDA2DA00EB730A /* Sources */,
+				8AB450901DBDA2DA00EB730A /* Frameworks */,
+				8AB450911DBDA2DA00EB730A /* Resources */,
+				4BB028D27BF4CBA0D219EE4E /* [CP] Embed Pods Frameworks */,
+				736C45E094A766365EE01AA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunnyWuDemo;
+			productName = SunnyWuDemo;
+			productReference = 8AB450931DBDA2DA00EB730A /* SunnyWuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB450AB1DBDA2DB00EB730A /* SunnyWuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB450C31DBDA2DB00EB730A /* Build configuration list for PBXNativeTarget "SunnyWuDemoTests" */;
+			buildPhases = (
+				D08CFF0D539CB65AC2B1F415 /* [CP] Check Pods Manifest.lock */,
+				8AB450A81DBDA2DB00EB730A /* Sources */,
+				8AB450A91DBDA2DB00EB730A /* Frameworks */,
+				8AB450AA1DBDA2DB00EB730A /* Resources */,
+				C83932660C2B2A895AECD66D /* [CP] Embed Pods Frameworks */,
+				A605907CD545BA3EEDDD657B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB450AE1DBDA2DB00EB730A /* PBXTargetDependency */,
+			);
+			name = SunnyWuDemoTests;
+			productName = SunnyWuDemoTests;
+			productReference = 8AB450AC1DBDA2DB00EB730A /* SunnyWuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AB450B61DBDA2DB00EB730A /* SunnyWuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB450C61DBDA2DB00EB730A /* Build configuration list for PBXNativeTarget "SunnyWuDemoUITests" */;
+			buildPhases = (
+				F5E6D072C44D4E9C2F78DA2C /* [CP] Check Pods Manifest.lock */,
+				8AB450B31DBDA2DB00EB730A /* Sources */,
+				8AB450B41DBDA2DB00EB730A /* Frameworks */,
+				8AB450B51DBDA2DB00EB730A /* Resources */,
+				2F02DA573B4E981E6CDB3457 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB450B91DBDA2DB00EB730A /* PBXTargetDependency */,
+			);
+			name = SunnyWuDemoUITests;
+			productName = SunnyWuDemoUITests;
+			productReference = 8AB450B71DBDA2DB00EB730A /* SunnyWuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB4508B1DBDA2DA00EB730A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SunnyWu;
+				TargetAttributes = {
+					8AB450921DBDA2DA00EB730A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z726T2VMHM;
+						ProvisioningStyle = Automatic;
+					};
+					8AB450AB1DBDA2DB00EB730A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M8GQEVATHK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AB450921DBDA2DA00EB730A;
+					};
+					8AB450B61DBDA2DB00EB730A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M8GQEVATHK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AB450921DBDA2DA00EB730A;
+					};
+				};
+			};
+			buildConfigurationList = 8AB4508E1DBDA2DA00EB730A /* Build configuration list for PBXProject "SunnyWuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB4508A1DBDA2DA00EB730A;
+			productRefGroup = 8AB450941DBDA2DA00EB730A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB450921DBDA2DA00EB730A /* SunnyWuDemo */,
+				8AB450AB1DBDA2DB00EB730A /* SunnyWuDemoTests */,
+				8AB450B61DBDA2DB00EB730A /* SunnyWuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB450911DBDA2DA00EB730A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABDE7FE1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.xib in Resources */,
+				8ACD8B431DC9C9AB00B378DA /* numberaddress.db in Resources */,
+				8AB450A31DBDA2DA00EB730A /* Assets.xcassets in Resources */,
+				8A500FAB1DC3037400628D2D /* SwCollectionHeaderView.xib in Resources */,
+				8A5D37811DC0A58E005D5A47 /* SwCollectionViewCell.xib in Resources */,
+				8AB450A11DBDA2DA00EB730A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB450AA1DBDA2DB00EB730A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB450B51DBDA2DB00EB730A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F02DA573B4E981E6CDB3457 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyWuDemoUITests/Pods-SunnyWuDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BB028D27BF4CBA0D219EE4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyWuDemo/Pods-SunnyWuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736C45E094A766365EE01AA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyWuDemo/Pods-SunnyWuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53B20DA5DF6FEEBA2F4AC01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A605907CD545BA3EEDDD657B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyWuDemoTests/Pods-SunnyWuDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C83932660C2B2A895AECD66D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunnyWuDemoTests/Pods-SunnyWuDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08CFF0D539CB65AC2B1F415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E6D072C44D4E9C2F78DA2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB4508F1DBDA2DA00EB730A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0E40B81DC98C2F005FFD03 /* SWDBDataBase.m in Sources */,
+				8AB450DB1DBDAD9900EB730A /* UIImage+ImageEffects.m in Sources */,
+				8A5D37871DC0AF5C005D5A47 /* SwWaterfallFlowViewController.m in Sources */,
+				8AB8D4CB1DC19A2200B527F7 /* SwCheckLauchImage.m in Sources */,
+				8AB450D71DBDA83A00EB730A /* FourViewController.m in Sources */,
+				8AB450D11DBDA82700EB730A /* SecondViewController.m in Sources */,
+				8AB8D4D11DC19AC300B527F7 /* UITextField+SwPlaceholder.m in Sources */,
+				8A1B774F1DBDDE5900A71B17 /* SWTableViewController.m in Sources */,
+				8A5D37841DC0AE47005D5A47 /* SwRewriteCollectionViewLayout.m in Sources */,
+				8A6D60851DE3D6820090FF3B /* RootTabbarController.m in Sources */,
+				8AB4509B1DBDA2DA00EB730A /* SWAppDelegate.m in Sources */,
+				8AB450CB1DBDA80C00EB730A /* BaseViewController.m in Sources */,
+				8AB450DE1DBDADC300EB730A /* UIImage+SwBlurredImage.m in Sources */,
+				8AB450D41DBDA83100EB730A /* ThreeViewController.m in Sources */,
+				8AB450E21DBDBE3D00EB730A /* UIImage+SwBorderImage.m in Sources */,
+				8ABDE7FF1DCC339F00630AE9 /* HBLIntegralMallCollectionReusableView.m in Sources */,
+				8A500FAA1DC3037400628D2D /* SwCollectionHeaderView.m in Sources */,
+				8A0E40BB1DC98CA9005FFD03 /* SWDBDataBaseModel.m in Sources */,
+				8AB450981DBDA2DA00EB730A /* main.m in Sources */,
+				8A5D37801DC0A58E005D5A47 /* SwCollectionViewCell.m in Sources */,
+				8AB450CE1DBDA81B00EB730A /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB450A81DBDA2DB00EB730A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB450B11DBDA2DB00EB730A /* SunnyWuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB450B31DBDA2DB00EB730A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB450BC1DBDA2DB00EB730A /* SunnyWuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB450AE1DBDA2DB00EB730A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB450921DBDA2DA00EB730A /* SunnyWuDemo */;
+			targetProxy = 8AB450AD1DBDA2DB00EB730A /* PBXContainerItemProxy */;
+		};
+		8AB450B91DBDA2DB00EB730A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB450921DBDA2DA00EB730A /* SunnyWuDemo */;
+			targetProxy = 8AB450B81DBDA2DB00EB730A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB4509F1DBDA2DA00EB730A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB450A01DBDA2DA00EB730A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AB450BE1DBDA2DB00EB730A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunnyWuDemo",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AB450BF1DBDA2DB00EB730A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunnyWuDemo",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB450C11DBDA2DB00EB730A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F64FC6FA94CE0AA1D7DC5B3 /* Pods-SunnyWuDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Z726T2VMHM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunnyWuDemo",
+					"\"$(SRCROOT)/TestProjectFramework.Framework\"",
+					"$(PROJECT_DIR)/SunnyWuDemo/TestProjectFramework.Framework",
+				);
+				GCC_PREFIX_HEADER = SunnyWuDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
+				INFOPLIST_FILE = SunnyWuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FMDB\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FMDB\"",
+					"-l\"Masonry\"",
+					"-l\"sqlite3\"",
+					"\"-framework\"",
+					"\"Foundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyWu.SunnyWuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		8AB450C21DBDA2DB00EB730A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EAF68222F4D9DF8D6AADE5 /* Pods-SunnyWuDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Z726T2VMHM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunnyWuDemo",
+					"\"$(SRCROOT)/TestProjectFramework.Framework\"",
+					"$(PROJECT_DIR)/SunnyWuDemo/TestProjectFramework.Framework",
+				);
+				GCC_PREFIX_HEADER = SunnyWuDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
+				INFOPLIST_FILE = SunnyWuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FMDB\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FMDB\"",
+					"-l\"Masonry\"",
+					"-l\"sqlite3\"",
+					"\"-framework\"",
+					"\"Foundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyWu.SunnyWuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		8AB450C41DBDA2DB00EB730A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683D6961F9E1F0E2A2D21511 /* Pods-SunnyWuDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M8GQEVATHK;
+				INFOPLIST_FILE = SunnyWuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyWu.SunnyWuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunnyWuDemo.app/SunnyWuDemo";
+			};
+			name = Debug;
+		};
+		8AB450C51DBDA2DB00EB730A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6472CF1C923D8BF2BB931BCA /* Pods-SunnyWuDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M8GQEVATHK;
+				INFOPLIST_FILE = SunnyWuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyWu.SunnyWuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunnyWuDemo.app/SunnyWuDemo";
+			};
+			name = Release;
+		};
+		8AB450C71DBDA2DB00EB730A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3722AD3BAA1DF2A4F66C52CB /* Pods-SunnyWuDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M8GQEVATHK;
+				INFOPLIST_FILE = SunnyWuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyWu.SunnyWuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunnyWuDemo;
+			};
+			name = Debug;
+		};
+		8AB450C81DBDA2DB00EB730A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43D946DB36AA5E8DAE86DFF /* Pods-SunnyWuDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M8GQEVATHK;
+				INFOPLIST_FILE = SunnyWuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SunnyWu.SunnyWuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SunnyWuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB4508E1DBDA2DA00EB730A /* Build configuration list for PBXProject "SunnyWuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB450BE1DBDA2DB00EB730A /* Debug */,
+				8AB450BF1DBDA2DB00EB730A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB450C01DBDA2DB00EB730A /* Build configuration list for PBXNativeTarget "SunnyWuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB450C11DBDA2DB00EB730A /* Debug */,
+				8AB450C21DBDA2DB00EB730A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB450C31DBDA2DB00EB730A /* Build configuration list for PBXNativeTarget "SunnyWuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB450C41DBDA2DB00EB730A /* Debug */,
+				8AB450C51DBDA2DB00EB730A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB450C61DBDA2DB00EB730A /* Build configuration list for PBXNativeTarget "SunnyWuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB450C71DBDA2DB00EB730A /* Debug */,
+				8AB450C81DBDA2DB00EB730A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AB4508B1DBDA2DA00EB730A /* Project object */;
+}

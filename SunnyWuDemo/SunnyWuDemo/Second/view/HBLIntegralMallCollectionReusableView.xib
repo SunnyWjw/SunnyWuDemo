@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HBLIntegralMallCollectionReusableView" id="U6b-Vx-4bR" customClass="HBLIntegralMallCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image5" translatesAutoresizingMaskIntoConstraints="NO" id="78w-qr-VhX">
+                    <rect key="frame" x="0.0" y="0.0" width="333" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="pG4-Q6-b8D"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--------精品兑换-------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1of-8T-3KE">
+                    <rect key="frame" x="0.0" y="208" width="333" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="DoS-rf-B9Z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1of-8T-3KE" secondAttribute="trailing" id="3eX-cg-f0C"/>
+                <constraint firstAttribute="trailing" secondItem="78w-qr-VhX" secondAttribute="trailing" id="AYL-5P-MH2"/>
+                <constraint firstItem="78w-qr-VhX" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="O7E-I8-knQ"/>
+                <constraint firstItem="78w-qr-VhX" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Srh-nz-JLB"/>
+                <constraint firstItem="1of-8T-3KE" firstAttribute="top" secondItem="78w-qr-VhX" secondAttribute="bottom" constant="8" id="VIZ-5s-G9U"/>
+                <constraint firstAttribute="trailing" secondItem="78w-qr-VhX" secondAttribute="trailing" id="aSB-0y-Ih5"/>
+                <constraint firstItem="78w-qr-VhX" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="snQ-WC-Ra6"/>
+                <constraint firstItem="1of-8T-3KE" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="t1j-RS-TUB"/>
+                <constraint firstItem="78w-qr-VhX" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="zLs-Da-7W2"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="78w-qr-VhX" id="GZG-se-gM9"/>
+                <outlet property="titleOneLabel" destination="1of-8T-3KE" id="1ho-zO-UwR"/>
+            </connections>
+            <point key="canvasLocation" x="38.5" y="151"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="image5" width="375" height="281"/>
+    </resources>
+</document>

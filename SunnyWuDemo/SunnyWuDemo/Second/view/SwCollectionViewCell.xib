@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="SwCollectionViewCell" reuseIdentifier="SwCollectionViewCell" id="gTV-IL-0wX" customClass="SwCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D8r-k9-lO0">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="PCi-xD-AO8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一个漂亮v发i版本" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WqB-Is-O5g">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WqB-Is-O5g" secondAttribute="bottom" id="0Vq-Eq-CnS"/>
+                <constraint firstItem="D8r-k9-lO0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7oq-Yw-BUj"/>
+                <constraint firstItem="WqB-Is-O5g" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MS0-k5-eUy"/>
+                <constraint firstAttribute="trailing" secondItem="D8r-k9-lO0" secondAttribute="trailing" id="OPv-2C-wnL"/>
+                <constraint firstItem="WqB-Is-O5g" firstAttribute="top" secondItem="D8r-k9-lO0" secondAttribute="bottom" constant="1" id="UKg-z1-mw1"/>
+                <constraint firstItem="D8r-k9-lO0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gI8-sY-oh9"/>
+                <constraint firstAttribute="trailing" secondItem="WqB-Is-O5g" secondAttribute="trailing" id="wDj-rt-9cP"/>
+            </constraints>
+            <size key="customSize" width="151" height="119"/>
+            <connections>
+                <outlet property="SwImage" destination="D8r-k9-lO0" id="thM-41-Nce"/>
+                <outlet property="SwLab" destination="WqB-Is-O5g" id="TDO-wl-I3T"/>
+            </connections>
+            <point key="canvasLocation" x="-77" y="79"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="SwCollectionHeaderView" reuseIdentifier="SwCollectionHeaderView" id="U6b-Vx-4bR" customClass="SwCollectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rns-Fk-34l">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="bpW-hZ-lwC">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Rns-Fk-34l" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="bzE-3S-iu3"/>
+                <constraint firstAttribute="trailing" secondItem="Rns-Fk-34l" secondAttribute="trailing" id="gpa-y5-XhI"/>
+                <constraint firstAttribute="bottom" secondItem="Rns-Fk-34l" secondAttribute="bottom" id="i4Y-jm-LVr"/>
+                <constraint firstItem="Rns-Fk-34l" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="nOj-k7-8e9"/>
+            </constraints>
+            <connections>
+                <outlet property="SwHeaderImageView" destination="bpW-hZ-lwC" id="7pe-gs-bSy"/>
+                <outlet property="SwHeaderScrollView" destination="Rns-Fk-34l" id="0B1-8I-yaq"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="148"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="image1" width="512" height="341"/>
+    </resources>
+</document>
